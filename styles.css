@@ -1,0 +1,66 @@
+/* Reset de márgenes y rellenos por defecto */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos para el cuerpo de la página */
+body {
+    background-color: #000; /* Fondo negro */
+    color: #fff; /* Texto blanco */
+    font-family: Arial, sans-serif; /* Fuente del texto */
+    line-height: 1.6;
+    text-align: center; /* Centrar el texto */
+    font-size: 14px; /* Tamaño de fuente del texto */
+}
+
+/* Estilos para el encabezado */
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ocupa toda la altura de la pantalla */
+}
+
+.logo {
+    max-width: 400px; /* Ajustar tamaño máximo del logo */
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+}
+
+/* Estilos para la sección principal */
+main {
+    padding: 20px;
+}
+
+.mission {
+    max-width: 800px; /* Ajustar ancho máximo del contenido principal */
+    margin: 0 auto; /* Centrar horizontalmente */
+}
+
+.mission h1 {
+    font-size: 2.5rem; /* Tamaño de fuente del título */
+    margin-bottom: 20px;
+}
+
+.mission h1 .highlight {
+    color: #0f0; /* Verde para la letra A */
+}
+
+.mission p {
+    font-size: 1rem; /* Tamaño de fuente de los párrafos */
+    margin-bottom: 10px;
+}
+
+/* Estilos para el pie de página */
+footer {
+    padding: 20px;
+    text-align: center;
+    color: #ccc; /* Color de texto del pie de página */
+    font-size: 0.9rem; /* Tamaño de fuente del pie de página */
+}
